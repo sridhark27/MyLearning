@@ -6,9 +6,9 @@ import java.util.List;
 public class BookMyShow implements CinemasViewer {
 
 	@Override
-	public List<List> getAllMovies() {
+	public List<List<String>> getAllMovies() {
 		
-		List<List> list = new ArrayList<>();
+		List<List<String>> list = new ArrayList<>();
 		
 	
 		list.add(new CinepolisCinemas().getMovies() );

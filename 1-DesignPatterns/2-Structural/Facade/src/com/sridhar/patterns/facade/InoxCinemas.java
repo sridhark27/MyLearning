@@ -8,7 +8,7 @@ public class InoxCinemas implements Cinemas {
 	public static final List<String> list = Arrays.asList("Jurassic park-3","Mission Impossible 8","Avatar");
 
 	@Override
-	public List getMovies() {
+	public List<String> getMovies() {
 		return list;
 	}
 

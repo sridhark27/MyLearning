@@ -4,6 +4,6 @@ import java.util.List;
 
 public interface CinemasViewer {
 	
-	public List<List> getAllMovies();
+	public List<List<String>> getAllMovies();
 
 }

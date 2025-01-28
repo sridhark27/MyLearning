@@ -8,7 +8,7 @@ public class PvrCinemas implements Cinemas {
 	public static final List<String> list = Arrays.asList("Batman","Lion King");
 
 	@Override
-	public List getMovies() {
+	public List<String> getMovies() {
 		return list;
 	}
 
