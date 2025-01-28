@@ -1,4 +1,4 @@
-package com.sridhar.patterns.facade;
+package com.sridhar.patterns.facade.inf;
 
 import java.util.List;
 

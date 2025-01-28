@@ -1,7 +1,9 @@
-package com.sridhar.patterns.facade;
+package com.sridhar.patterns.facade.impl;
 
 import java.util.Arrays;
 import java.util.List;
+
+import com.sridhar.patterns.facade.inf.Cinemas;
 
 public class InoxCinemas implements Cinemas {
 	
