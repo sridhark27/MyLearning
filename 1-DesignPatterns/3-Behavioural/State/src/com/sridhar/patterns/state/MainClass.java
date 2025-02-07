@@ -5,7 +5,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		
 		StateContext context = new StateContext();
-		context.setSignal(new RedSignl());
+		context.setSignal(new RedSignal());
 		context.action();
 		
 		context.setSignal(new YellowSignal());

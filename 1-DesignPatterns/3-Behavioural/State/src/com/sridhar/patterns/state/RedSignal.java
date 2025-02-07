@@ -1,6 +1,6 @@
 package com.sridhar.patterns.state;
 
-public class RedSignl implements TrafficSignal {
+public class RedSignal implements TrafficSignal {
 
 	@Override
 	public void action() {
